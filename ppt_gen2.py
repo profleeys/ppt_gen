@@ -23,7 +23,7 @@ if __name__ == '__main__':
 
     st.set_page_config(layout = 'wide')
     
-    st.title("PPT產生器")
+    st.title("ChatPPT")
     
     col6, col7 = st.columns(2)
     
