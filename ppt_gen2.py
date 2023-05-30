@@ -18,6 +18,8 @@ def remove_punctuation(text):
     return cleaned_text
 
 if __name__ == '__main__':
+    os.environ['OPENAI_API_KEY'] = st.secrets["OPENAI_API_KEY"]
+
     if 'context' not in st.session_state:
         st.session_state.context = ''
 
