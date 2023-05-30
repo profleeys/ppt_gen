@@ -1,5 +1,6 @@
 import streamlit as st
 from ppt_lib import *
+import os
 import base64
 import re
 import openai
